@@ -15,7 +15,7 @@ const hideMenu = () => {
   mobileMenu.style.display = "none";
 };
 
-closeMenu.addEventListener('click', hideMenu());
+closeMenu.addEventListener('click', hideMenu);
 
 menuList.addEventListener('click', hideMenu);
 

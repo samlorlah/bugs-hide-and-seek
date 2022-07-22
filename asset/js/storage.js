@@ -3,7 +3,7 @@ const formData = {
   email: '',
   message: '',
 };
-const FORM_KEY = 'form-data';
+const FORM_KEYS = 'form-data';
 const fullname = document.getElementById('fullname');
 const mail = document.getElementById('email');
 const message = document.getElementById('message');
